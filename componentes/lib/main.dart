@@ -1,3 +1,4 @@
+import 'package:componentes/src/pages/home_page.dart';
 import 'package:componentes/src/pages/home_temp.dart';
 import 'package:flutter/material.dart';
 // Hecho por your
@@ -11,6 +12,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: 'Componentes APP',
         debugShowCheckedModeBanner: false,
-        home: HomePageTemp());
+        home: HomePage());
   }
 }
