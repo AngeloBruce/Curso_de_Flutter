@@ -31,6 +31,10 @@ class HomePageTemp extends StatelessWidget {
         children: <Widget>[
           ListTile(
             title: Text(item + '!'),
+            subtitle: Text('Cualquier cosa'),
+            leading: Icon(Icons.account_balance_wallet),
+            trailing: Icon(Icons.keyboard_arrow_right),
+            onTap: () {},
           ),
           Divider()
         ],
